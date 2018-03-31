@@ -7,12 +7,8 @@ attr_accessor :email
 
   @@emails = []
 
-  def initialize
-    @email = email
-  end
-
   def parse
-    
+
   end
 
 end
