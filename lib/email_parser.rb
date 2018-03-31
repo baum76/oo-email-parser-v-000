@@ -12,7 +12,7 @@ attr_accessor :csv_emails
   def parse
     csv_emails.split.collect do |address|
       address.split(",")
-    end
+    end.flatten.uniq
   end
 
 end
